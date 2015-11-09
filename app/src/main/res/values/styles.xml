@@ -1,17 +1,39 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
     </style>
-    <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
+
+    <!-- 去除listiview默认属性 -->
+    <style name="remove_listview_default">
+        <item name="android:listSelector">#00000000</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:background">@null</item>
     </style>
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="common_shadow_text_style">
+        <item name="android:shadowColor">@color/gray</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowDx">0.5</item>
+        <item name="android:shadowDy">0.5</item>
+    </style>
+
+    <style name="common_text_style" parent="@style/common_shadow_text_style">
+        <item name="android:textSize">@dimen/common_textsize_normal</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/block</item>
+    </style>
+
+    <style name="common_text_big_style" parent="@style/common_text_style">
+        <item name="android:textSize">@dimen/common_textsize_big</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="common_text_small_style" parent="@style/common_text_style">
+        <item name="android:textSize">@dimen/common_textsize_small</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
 
 </resources>

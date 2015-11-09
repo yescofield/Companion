@@ -1,4 +1,13 @@
 <resources>
-    <string name="app_name">Companion</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">发现</string>
+
+    <string name="hello_world">发现，你好</string>
+    <string name="action_settings">设置</string>
+
+    <string name="common_loading">正在加载。。。</string>
+
+    <string name="context_menu">Context menu</string>
+    <string name="menu_feedback">我要吐槽</string>
+    <string name="once_again_exit">再点击一次，退出应用</string>
+
 </resources>

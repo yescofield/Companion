@@ -2,5 +2,45 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="common_divider_small">0.5dp</dimen>
+    <dimen name="common_divider_normal">0.7dp</dimen>
+    <dimen name="common_divider_big">0.9dp</dimen>
+
+    <dimen name="common_smaller_margin">3dp</dimen>
+    <dimen name="common_small_margin">5dp</dimen>
+    <dimen name="common_margin_8">8dp</dimen>
+    <dimen name="common_normal_margin">10dp</dimen>
+    <dimen name="common_big_margin">15dp</dimen>
+    <dimen name="common_bigger_margin">20dp</dimen>
+
+    <dimen name="common_textsize_biggest">24sp</dimen><!-- 最大字体 -->
+    <dimen name="common_textsize_bigger">20sp</dimen><!-- 更大字体 -->
+    <dimen name="common_textsize_big">18sp</dimen><!-- 大字体 -->
+    <dimen name="common_textsize_normal">16sp</dimen><!-- 正常字体大小 -->
+    <dimen name="common_textsize_small">14sp</dimen><!-- 小字体 -->
+    <dimen name="common_textsize_smaller">12sp</dimen><!-- 更小字体 -->
+    <dimen name="common_textsize_smallest">10sp</dimen><!-- 最小字体 不推荐使用-->
+
+    <dimen name="splash_logo_margin_top">100dp</dimen>
+
+    <dimen name="main_input_edt_width">36dp</dimen>
+    <dimen name="main_input_btn_width">32dp</dimen>
+    <dimen name="main_input_view_height">180dp</dimen>
+    <dimen name="main_chat_head">52dp</dimen>
+
+    <dimen name="tool_bar_height">48dp</dimen>
+
+    <dimen name="common_map_button_margin">10dp</dimen>
+
+    <dimen name="common_dialog_margin_leftright">44dp</dimen>
+
+    <!-- 对话框参数 -->
+    <dimen name="common_dialog_padding_w">13dp</dimen>
+    <dimen name="common_dialog_title_h">39dp</dimen>
+    <dimen name="common_dialog_button_padding_top">15dp</dimen>
+    <dimen name="common_dialog_button_padding_bottom">14dp</dimen>
+
+    <dimen name="TitleBarHeight">54dp</dimen>
+
 </resources>
